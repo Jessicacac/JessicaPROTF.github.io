@@ -2,11 +2,45 @@
 <html lang="zh-TW">
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="portfolio">
+    <meta name="keywords" content="portfolio">
+    <meta name="viewport" content="#">
     <title>jessica | blog</title>
+
 </head>
 <body>
+    <!--header starts -->
+    <header>
+        <div>
+            <h2><a href="#" class="logo">Jessica's website</a></h2>
+            <style>
+                .logo{
+                    color:white;
+                    text-decoration:none;
+                    display:inline-block;
+                    font-family:sans-serif;
+                }
+            </style>
+        
+            <nav class="navbar">
+                <h3><a href="#about">about</a></h3>
+                <h3><a href="#profio">portfolio</a></h3>
+            </nav>
+            <style>
+                .navbar h3 a{
+                    text-align:right;
+                    color:white;
+                    text-decoration:none;
+                    display:block;
+                    font-family:sans-serif;
+                }
+            </style>
+        </div>
+    </header>
+    <!-- header end-->
+    <h6 id="about" style="color:white;text-align:center;font-size:2vw;font-family:sans-serif;"><strong>about</strong></h6>
     <div id="intro">
-    <h4>我是許郁婕，目前就讀於國立臺灣大學圖書資訊學系二年級。<br>這是我的作品集網站。<h4>
+    <h6>我是許郁婕，目前就讀於國立臺灣大學圖書資訊學系二年級。<br>喜歡攝影、創作、看電影。<br>這是我的作品集網站。<h6>
     </div>
     <style>
     #intro{
@@ -15,7 +49,8 @@
         font-size:3vw;
     }
     </style>
-    <div id="profio">
+    <h6 style="color:white;text-align:center;font-size:2vw;font-family:sans-serif;"><strong>portfolio</strong></h6>
+    <div id="profio" class="portf">
         <h3><a href="社群經營作品集.pdf" target="_blank">圖資週 文案＆攝影作品(2021~2022)</a></h3>
         <h3><a href="https://vs.co/f0q8pae3"target="_block">攝影作品</a></h3>
     </div>
@@ -52,6 +87,7 @@
     body{
         background-color:black;
         font-family: 'cwTeXFangSong', serif;
+        
     }
 </style>
 </body>
